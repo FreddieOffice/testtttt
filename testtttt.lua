@@ -8,6 +8,7 @@ function testtttt.randstring(len)
    for i = 1, len do
       tehstr = tehstr..tb[math.random(#tb)]
    end
+   return tehstr
 end
 
 return testtttt
